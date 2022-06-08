@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2+BbQX2pCILZdgMeGZQbKArOuiuZpulPOIuh3wJeZyCaqRKBerziTfRtzXgk/rZT8tVlZ+K/DtesSnwprj34BA==",
+  "dgSpecHash": "xZtyPEVkWvV/eW3BkvLYVHWK6d9pIWfVKJ0NEHde2lOT5I5ruN8oJ37oIxZM9KwNzvDsqfbDRFdBXaPdkFCefw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jakub\\source\\repos\\TaskManager\\Library\\TaskManager.csproj",
+  "projectFilePath": "F:\\TaskManagerApp\\TaskManagerApp\\backend\\Library\\TaskManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jakub\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jakub\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
