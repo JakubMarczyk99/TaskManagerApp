@@ -1,0 +1,28 @@
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppComponent } from './app.component';
+import { TaskComponent } from './task/task.component';
+import { ShowTaskComponent } from './task/show-task/show-task.component';
+import { AddEditTaskComponent } from './task/add-edit-task/add-edit-task.component';
+import { TaskApiServiceService } from './task-api-service.service';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    TaskComponent,
+    ShowTaskComponent,
+    AddEditTaskComponent
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+  ],
+  providers: [TaskApiServiceService],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
